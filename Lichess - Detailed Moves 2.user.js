@@ -407,14 +407,14 @@
             if (beforeNode) { container.insertBefore(div, beforeNode); } else { container.appendChild(div); }
         }
 
-        dataPoint('white', '!!', currentMovesData.white.brillant, ' brillantes', whiteSide, '#1baca6', 'stat-brilliant-w', 'brilliant');
-        dataPoint('white', '!', currentMovesData.white.excellent, ' excelentes', whiteSide, '#96bc4b', 'stat-excellent-w', 'excellent');
-        dataPoint('white', '!?', currentMovesData.white.good, ' buenas', whiteSide, '#b2f196', 'stat-good-w', 'good');
-        dataPoint('white', 'Book', currentMovesData.white.book, ' de libro', whiteSide, '#a88865', 'stat-book-w', 'book');
-        dataPoint('black', '!!', currentMovesData.black.brillant, ' brillantes', blackSide, '#1baca6', 'stat-brilliant-b', 'brilliant');
-        dataPoint('black', '!', currentMovesData.black.excellent, ' excelentes', blackSide, '#96bc4b', 'stat-excellent-b', 'excellent');
-        dataPoint('black', '!?', currentMovesData.black.good, ' buenas', blackSide, '#b2f196', 'stat-good-b', 'good');
-        dataPoint('black', 'Book', currentMovesData.black.book, ' de libro', blackSide, '#a88865', 'stat-book-b', 'book');
+        dataPoint('white', '!!', currentMovesData.white.brillant, ' Brillantes', whiteSide, '#1baca6', 'stat-brilliant-w', 'brilliant');
+        dataPoint('white', '!', currentMovesData.white.excellent, ' Excelentes', whiteSide, '#96bc4b', 'stat-excellent-w', 'excellent');
+        dataPoint('white', '!?', currentMovesData.white.good, ' Buenas', whiteSide, '#b2f196', 'stat-good-w', 'good');
+        dataPoint('white', 'Book', currentMovesData.white.book, ' De libro', whiteSide, '#a88865', 'stat-book-w', 'book');
+        dataPoint('black', '!!', currentMovesData.black.brillant, ' Brillantes', blackSide, '#1baca6', 'stat-brilliant-b', 'brilliant');
+        dataPoint('black', '!', currentMovesData.black.excellent, ' Excelentes', blackSide, '#96bc4b', 'stat-excellent-b', 'excellent');
+        dataPoint('black', '!?', currentMovesData.black.good, ' Buenas', blackSide, '#b2f196', 'stat-good-b', 'good');
+        dataPoint('black', 'Book', currentMovesData.black.book, ' De libro', blackSide, '#a88865', 'stat-book-b', 'book');
 
         function enableClickOnNativeStats(side, sideColor) {
             const container = side.querySelector('.advice-summary__acpl') || side;
