@@ -3,7 +3,7 @@
 // @license         GPL-3.0-only
 // @namespace       https://github.com/victorigp/Lichess_Detailed_Moves_2
 // @contributionURL https://github.com/victorigp/Lichess_Detailed_Moves_2
-// @version         1.31
+// @version         1.32
 // @description     Muestra jugadas brillantes, excelentes, buenas y de libro en los apartados de análisis y de estudio de Lichess sin necesidad de recargar la página. Al hacer clic sobre los textos de las jugadas, nos muestra su posición en el tablero con sus iconos correspondientes. Modificación del script Lichess - Detailed Moves by Seall.DEV & Thomas Sihapnya
 // @author          Víctor Iglesias
 // @require         https://greasyfork.org/scripts/47911-font-awesome-all-js/code/Font-awesome%20AllJs.js?version=275337
@@ -383,7 +383,7 @@
             let container = side.querySelector('.advice-summary__acpl') || side;
             let beforeNode = null;
             const childNodes = Array.from(container.childNodes);
-            const insertBeforeTerms = ['imprecisiones', 'Imprecisiones', 'imprecisi├│n', 'Imprecisi├│n', 'inaccuracies', 'Inaccuracies', 'inaccuracy', 'Inaccuracy', 'Error', 'Errores', 'Mistake', 'Errores graves', 'Blunder', 'P├®rdida promedio', 'average centipawn loss', 'Precisi├│n', 'Accuracy'];
+            const insertBeforeTerms = ['imprecisiones', 'Imprecisiones', 'imprecisión', 'Imprecisión', 'inaccuracies', 'Inaccuracies', 'inaccuracy', 'Inaccuracy', 'Error', 'Errores', 'Mistake', 'Errores graves', 'Blunder', 'Pérdida promedio', 'average centipawn loss', 'Precisión', 'Accuracy'];
 
             for (const term of insertBeforeTerms) {
                 const potentialNode = childNodes.find(node => node.nodeType === Node.ELEMENT_NODE && (node.textContent || '').includes(term));
