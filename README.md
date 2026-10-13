@@ -1,3 +1,11 @@
+# 🚨 Proyecto Archivado / No Mantenido 🚨
+
+Este proyecto ha quedado obsoleto y ya no recibe actualizaciones. Actualmente utilizamos una solución mejorada que puedes encontrar aquí:
+
+🔗 **[Ir al nuevo Analizador de Partidas de Ajedrez](https://github.com/victorigp/Analizador_partidas_ajedrez)**
+
+<br><br>
+
 ![image](https://github.com/user-attachments/assets/df8b868e-04d3-4c45-b251-990304d52f56)
 
 # Lichess Detailed Moves 2
